@@ -30,7 +30,7 @@ See [virtualfish documentation][vf-usage-link]
 
 [mit]:            https://opensource.org/licenses/MIT
 [author]:         https://github.com/timanin
-[contributors]:   https://github.com/timanin/plugin-virtualfish/graphs/contributors
+[contributors]:   https://github.com/oh-my-fish/plugin-virtualfish/graphs/contributors
 
 [fish-link]:      https://fishshell.com
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish

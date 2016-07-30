@@ -17,6 +17,9 @@ $ pip install virtualfish
 $ omf install virtualfish
 ```
 
+If you're using a python interpreter other than `python`, you can set the
+variable `VIRTUALFISH_PYTHON` to it's absolute path in your `before.init.fish`
+file.
 
 ## Usage
 

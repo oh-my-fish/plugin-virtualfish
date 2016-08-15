@@ -2,7 +2,7 @@ if set -q $VIRTUALFISH_PYTHON
     set VIRTUALFISH_PYTHON python
 end
 
-eval (eval $VIRTUALFISH_PYTHON -m virtualfish 2>/dev/null)
+eval (eval $VIRTUALFISH_PYTHON -m virtualfish $VIRTUALFISH_PLUGINS 2>/dev/null)
 
 if test $status -gt 0
     echo "Please install virtualfish by running `pip install virtualfish`"

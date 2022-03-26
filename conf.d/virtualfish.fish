@@ -1,4 +1,5 @@
-set -q VIRTUALFISH_PYTHON || set VIRTUALFISH_PYTHON python
+set -q VIRTUALFISH_PYTHON
+or set VIRTUALFISH_PYTHON python
 
 eval (eval $VIRTUALFISH_PYTHON -m virtualfish $VIRTUALFISH_PLUGINS 2>/dev/null)
 
